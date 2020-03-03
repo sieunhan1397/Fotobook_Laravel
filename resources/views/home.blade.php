@@ -7,8 +7,9 @@
             <img class="rounded-circle" src="https://instagram.fsgn2-2.fna.fbcdn.net/v/t51.2885-19/s150x150/54247724_389983655169271_7614518609653530624_n.jpg?_nc_ht=instagram.fsgn2-2.fna.fbcdn.net&_nc_ohc=ZSfTStA3B2UAX_1Obf1&oh=550c4a59821fffcf7155d88fa65b503c&oe=5E97EE19" alt="">
         </div>
         <div class="col-9 pt-3">
-            <div>
-            <h1>{{$user->username}}</h1>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{$user->username}}</h1>
+                <a href="#">Add new post</a>
             </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>4</strong> bài viết</div>
